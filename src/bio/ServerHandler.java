@@ -48,7 +48,7 @@ public class ServerHandler implements Runnable {
 			// TODO: handle exception
 			e.printStackTrace();
 		}finally{
-			//执行finally时，说明以上的程序已经运行完成，，则一些必要的清理工作
+			//执行finally时，说明以上的程序已经运行完成，，则进行一些必要的清理工作
 			if(in != null){
 				try {
 					in.close();
